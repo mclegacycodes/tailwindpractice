@@ -1,0 +1,16 @@
+{
+  "name": "tailwindpractice1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildCss": "npx tailwindcss -i ./input.css -o ./css/main.css",
+     "watchCss": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
